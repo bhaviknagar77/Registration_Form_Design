@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <div class="main">
+        <h1> University of Transylvania</h1>
+
+        <div class="register">
+
+
+            <form id="register">
+                <div>
+                    <h2> Registraion Form</h2>
+                </div>
+                <table align="center" cellpadding="10">
+                    
+                    <!-- <tr>
+                        <td> <h2> Registraion Form</h2></td></tr>
+                    <tr> -->
+                        <td><label for="fname">First Name: </label></td>
+                        <td> <input type="text" id="fname" placeholder="Enter Your First Name" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="lname">Last Name: </label></td>
+                        <td><input type="text" id="lname" placeholder="Enter Your Last Name" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email:</label> </td>
+                        <td><input type="email" id="email" placeholder="Enter Your Mail Id" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="mobile">Mobile:</label></td>
+                        <td><input type="text" id="mobile" placeholder="Enter Your Mobile" maxlength="10" required></td>
+                    </tr>
+                    <tr>
+                        <td> <label for="gender">Gender:</label></td>
+                        <td><input type="radio" id="gender" value="Male"> Male
+                            <input type="radio" id="gender" value="Female"> Female
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="DOB">Date of Birth:</label></td>
+                        <td><input type="date" id="DOB" value="DOB" required></td>
+                    </tr>
+                    <tr>
+                        <td> <label for="Address">Address:</label></td>
+                        <td><textarea name="address" id="address" rows="5" cols="45"
+                                placeholder="Enter Your Address"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><label for="city">City: </label></td>
+                        <td><input type="text" id="city" placeholder="Enter Your City" required></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="pin">Area PIN: </label></td>
+                        <td><input type="text" id="pin" placeholder="Enter Your Pin code" maxlength="6" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="state">State: </label></td>
+                        <td> <input type="text" id="state" placeholder="Enter Your State" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="qualification">Qualification: </label></td>
+                        <td><select name="qualification">
+                                <option value="#"> Select Qualification</option>
+                                <option value="#"> Bsc.</option>
+                                <option value="#`"> Msc.</option>
+                                <option value="#"> B.E./B.Tech</option>
+                                <option value="#"> M.E./M.Tech</option>
+                                <option value="#"> BCA</option>
+                                <option value="#"> MCA</option>
+                                <option value="#"> Phd.</option>
+                            </select></td>
+                    </tr>
+                    <tr>
+                        <td><label for="specialization">Specialization: </label></td>
+                        <td> <input type="checkbox" value="Computer Science" name="Computer Science">Computer Science<br>
+                            <input type="checkbox" value="Information Technology"
+                                name="Information Technology">Information Technology<br>
+                            <input type="checkbox" value="Computer Architecture" name="Computer Architecture">Computer Architecture<br>
+                            <input type="checkbox" value="Tele Communication" name="Tele Communication">Tele Communication
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td><label for="password">Password: </label></td>
+                        <td><input type="password" id="password" minlength="8"></td>
+
+                    <tr>
+                        <td></td>
+                        <td><input id="submit" type="submit" value="Register" name="submit"></td>
+                    </tr>
+
+                </table>
+
+        </div>
+
+    </div>
+
+    </form>
+</body>
+
+</html>

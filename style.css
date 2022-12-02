@@ -1,0 +1,59 @@
+body {
+    background-image: linear-gradient(rgba(14, 58, 99, 0.767), rgba(255, 0, 255, 0.788));
+}
+
+.main h1 {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.main {
+    width: 800px;
+    margin: 50px auto 0 auto;
+    align-items: center;
+
+}
+
+#fname,
+#lname,
+#email,
+#mobile,
+#city,
+#pin,
+#state,
+#password {
+    width: 300px;
+    border: 1px solid lightsilver;
+    border-radius: 3px;
+}
+
+h2 {
+    font-weight: 600;
+    color: rgb(80, 5, 5);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#register {
+    align-items: center;
+    font-size: 18px;
+    background-color: rgba(219, 152, 228, 0.658);
+    padding: 20px;
+    border: 2px solid black;
+}
+
+table input {
+    font-size: 20px;
+}
+
+#submit {
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: lightblue;
+}
+
+#submit:hover {
+    background-color: rgb(55, 55, 131);
+    color: white;
+}
